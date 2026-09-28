@@ -1,17 +1,17 @@
-# Personal Portfolio Website
+# MD. Raysul Alam Razin — Personal Portfolio
 
-A responsive personal portfolio starter inspired by the supplied reference. Built with plain HTML, CSS, and JavaScript.
+Responsive one-page portfolio made with plain HTML, CSS and JavaScript.
 
-## Preview locally
-1. Extract `personal_portfolio.zip`.
-2. Open `index.html` in a modern browser.
+## Preview
+Open `index.html` in a browser.
+
+## Publish on GitHub Pages
+1. Upload the contents of this folder (not the ZIP file) to the root of `raysulalamrazin.github.io`.
+2. In repository Settings → Pages, choose **Deploy from a branch**, branch `main`, folder `/ (root)`, then Save.
+3. After deployment, visit https://raysulalamrazin.github.io/
 
 ## Customize
-- Replace `Your Name`, `Your Degree / Profession`, and all sample descriptions in `index.html`.
-- Replace the social profile URLs and email address.
-- Replace the photo placeholder with your portrait. You can add an image in `assets/` and change the `.portrait-placeholder` element in `index.html` to an `<img>` tag.
-- Add your CV PDF as `assets/cv.pdf`. Create the `assets` folder if needed.
-- Update education, experience, publications, projects, skills, and awards with your real details.
-
-## Publish
-Upload the files to any static hosting service, such as GitHub Pages, Netlify, or Cloudflare Pages. Keep `index.html`, `style.css`, and `script.js` together in the published root.
+- Edit text in `index.html`.
+- Add a photo to `assets/profile.jpg` and replace the `.avatar` placeholder with an image element.
+- The CV is included at `assets/cv.pdf`.
+- Update any details, skills or social links so they accurately reflect your information.

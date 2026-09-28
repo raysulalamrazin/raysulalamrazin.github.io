@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10182d">
+  <meta name="description" content="Personal portfolio website">
+  <title>Your Name | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Go to home">YN<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="mainNav" aria-label="Main navigation">
+      <a href="#about">ABOUT</a>
+      <a href="#expertise">EXPERTISE</a>
+      <a href="#education">EDUCATION</a>
+      <a href="#experience">EXPERIENCE</a>
+      <a href="#publications">PUBLICATIONS</a>
+      <a href="#projects">PROJECTS</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#awards">AWARDS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div class="portrait-wrap">
+          <div class="portrait-placeholder" aria-label="Profile photo placeholder">
+            <svg viewBox="0 0 180 180" role="img" aria-label="Person silhouette">
+              <circle cx="90" cy="61" r="31" fill="currentColor" opacity=".8"/>
+              <path d="M32 162c4-37 26-58 58-58s54 21 58 58" fill="currentColor" opacity=".8"/>
+            </svg>
+            <span>Add your photo</span>
+          </div>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">HELLO, I'M</p>
+          <h1>Your Name <span>.</span></h1>
+          <p class="hero-role">Your Degree / Profession</p>
+          <p class="typed-line">Welcome to my portfolio <span class="wave">👋</span><i class="cursor"></i></p>
+          <div class="social-links" aria-label="Social links">
+            <a href="#" aria-label="LinkedIn" title="LinkedIn">in</a>
+            <a href="#" aria-label="GitHub" title="GitHub">⌘</a>
+            <a href="mailto:hello@example.com" aria-label="Email" title="Email">✉</a>
+          </div>
+          <a class="button button-gold" href="assets/cv.pdf" download>
+            <span aria-hidden="true">▣</span> Download CV <span class="chevron">⌄</span>
+          </a>
+          <p class="small-note">Replace the sample links and add your CV file in the assets folder.</p>
+        </div>
+      </div>
+      <div class="intro-card" id="about">
+        <h2>Hi, I'm Your Name,</h2>
+        <p>I am a motivated student and aspiring professional with an interest in learning, research, and practical problem-solving. This portfolio highlights my education, skills, projects, and experiences.</p>
+        <p>My goal is to keep developing my knowledge, work on meaningful projects, and contribute positively wherever I have the opportunity.</p>
+      </div>
+    </section>
+
+    <section class="section" id="expertise">
+      <div class="section-heading"><span class="heading-icon">✦</span><h2>What I Can Offer</h2><span class="heading-line"></span></div>
+      <div class="offer-grid">
+        <article class="offer-card"><span class="offer-icon">⌘</span><h3>Technical Skills</h3><p>Practical and digital skills relevant to my field.</p></article>
+        <article class="offer-card"><span class="offer-icon">▣</span><h3>Research & Learning</h3><p>Curiosity, analysis, and a commitment to continuous learning.</p></article>
+        <article class="offer-card"><span class="offer-icon">◇</span><h3>Teamwork</h3><p>Communication, collaboration, and shared problem-solving.</p></article>
+        <article class="offer-card"><span class="offer-icon">✎</span><h3>Writing & Presentation</h3><p>Clear documentation and thoughtful presentation of ideas.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="section-heading"><span class="heading-icon">♧</span><h2>Education</h2><span class="heading-line"></span></div>
+      <article class="wide-card">
+        <div class="card-mark">ED</div><div class="card-main"><h3>Degree / Program Name</h3><a href="#">Institution Name</a><p>Add your major, relevant coursework, achievements, or academic interests here.</p></div><time>YYYY – YYYY</time>
+      </article>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-heading"><span class="heading-icon">▣</span><h2>Experience</h2><span class="heading-line"></span></div>
+      <div class="stack">
+        <details class="wide-card expandable" open>
+          <summary><span class="card-mark">01</span><span class="card-main"><strong>Role / Position</strong><small>Organization Name · Location</small></span><span class="date">YYYY – Present</span><span class="expand-icon">▾</span></summary>
+          <div class="details-content"><p>Describe your responsibilities, contributions, and what you learned. Keep the points specific and easy to scan.</p><ul><li>Responsibility or achievement one</li><li>Responsibility or achievement two</li></ul></div>
+        </details>
+        <details class="wide-card expandable">
+          <summary><span class="card-mark">02</span><span class="card-main"><strong>Volunteer / Internship / Other Role</strong><small>Organization Name · Location</small></span><span class="date">YYYY – YYYY</span><span class="expand-icon">▾</span></summary>
+          <div class="details-content"><p>Add a short summary of this experience and your contribution.</p></div>
+        </details>
+      </div>
+    </section>
+
+    <section class="section" id="publications">
+      <div class="section-heading"><span class="heading-icon">▤</span><h2>Publications</h2><span class="heading-line"></span></div>
+      <p class="section-subtitle">Research papers, articles, and other publications</p>
+      <ul class="publication-list">
+        <li><span class="bullet"></span><div><span class="authors">Your Name, Co-author Name</span> (20XX). <a href="#">Title of your publication or article</a>. <em>Journal / Conference Name.</em> <a class="doi" href="#">DOI / Paper link</a></div></li>
+        <li><span class="bullet"></span><div><span class="authors">Your Name</span> (20XX). <a href="#">Another publication title</a>. <em>Publisher / Platform.</em> <a class="doi" href="#">Read paper</a></div></li>
+      </ul>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading"><span class="heading-icon">⌘</span><h2>Projects</h2><span class="heading-line"></span></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-number">PROJECT 01</div><h3>Project Title</h3><p>Briefly explain the problem, your approach, and the outcome of this project.</p><div class="tags"><span>Research</span><span>Design</span></div><a href="#">View project ↗</a></article>
+        <article class="project-card"><div class="project-number">PROJECT 02</div><h3>Project Title</h3><p>Briefly explain the tools, methods, and skills you used in this project.</p><div class="tags"><span>Development</span><span>Teamwork</span></div><a href="#">View project ↗</a></article>
+        <article class="project-card"><div class="project-number">PROJECT 03</div><h3>Project Title</h3><p>Add another project, case study, coursework, or personal initiative.</p><div class="tags"><span>Learning</span><span>Portfolio</span></div><a href="#">View project ↗</a></article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading"><span class="heading-icon">✧</span><h2>Skills</h2><span class="heading-line"></span></div>
+      <div class="skills-wrap">
+        <div><h3>Technical</h3><div class="tags large"><span>Skill One</span><span>Skill Two</span><span>Skill Three</span><span>Skill Four</span></div></div>
+        <div><h3>Professional</h3><div class="tags large"><span>Communication</span><span>Teamwork</span><span>Problem-solving</span><span>Time management</span></div></div>
+        <div><h3>Languages</h3><div class="tags large"><span>Bangla</span><span>English</span><span>Add another</span></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="awards">
+      <div class="section-heading"><span class="heading-icon">♛</span><h2>Awards & Achievements</h2><span class="heading-line"></span></div>
+      <div class="wide-card award-card"><div class="card-mark">★</div><div class="card-main"><h3>Award / Achievement Name</h3><p>Issuing organization · Add a short description</p></div><time>20XX</time></div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading"><span class="heading-icon">✉</span><h2>Get In Touch</h2><span class="heading-line"></span></div>
+      <p class="contact-intro">Have a question or an opportunity to discuss? Feel free to reach out.</p>
+      <div class="contact-grid">
+        <a class="contact-card" href="mailto:hello@example.com"><span>✉</span><small>Email</small><strong>hello@example.com</strong></a>
+        <a class="contact-card" href="#"><span>in</span><small>LinkedIn</small><strong>linkedin.com/in/yourname</strong></a>
+        <a class="contact-card" href="#"><span>⌘</span><small>GitHub</small><strong>github.com/yourname</strong></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#home">YN<span>.</span></a><p>© <span id="year"></span> Your Name. All rights reserved.</p><a href="#home" class="back-top" aria-label="Back to top">↑</a></footer>
+  <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">☼</button>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -6,67 +6,71 @@
 <meta name="description" content="Personal portfolio of MD. Raysul Alam Razin, B.Sc. in Nursing student.">
 <title>MD. Raysul Alam Razin | Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e172b;--panel:#1d2a40;--panel2:#17243a;--text:#edf3ff;--muted:#aabbd5;--gold:#e5b23f;--blue:#8fb6e8;--line:#2b3b54;--shadow:0 8px 24px #0003}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:74px}body{margin:0;background:var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;font-size:14px;line-height:1.6}a{color:inherit}.header{height:58px;position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:0 24px;background:#111a2dee;border-bottom:1px solid #ffffff14;backdrop-filter:blur(12px)}.logo{font:italic 500 1.2rem "Playfair Display",serif;text-decoration:none;color:#e7eaf2;white-space:nowrap}.logo span{color:var(--gold)}nav{display:flex;align-items:center;gap:18px}nav a{font-size:.69rem;font-weight:800;color:#d2d9e5;text-decoration:none;text-transform:uppercase;letter-spacing:.3px;padding:20px 0 16px;border-bottom:2px solid transparent}nav a:hover,nav a.active{color:var(--gold);border-color:var(--gold)}.menu-btn{display:none;background:transparent;border:0;color:var(--text);font-size:1.5rem}.hero{padding:62px 7vw 72px;background:linear-gradient(115deg,#101a2e,#19253a 70%,#1b2a40)}.hero-inner{max-width:1080px;margin:auto;display:grid;grid-template-columns:160px 1fr;align-items:center;gap:28px}.avatar{width:160px;height:160px;object-fit:cover;object-position:center 22%;border-radius:50%;border:3px solid #69778d;box-shadow:0 8px 25px #0005;background:#fff}.hero h1{font-size:clamp(1.6rem,3vw,2.3rem);line-height:1.2;margin:0 0 6px;font-weight:800;letter-spacing:.2px}.degree{color:var(--gold);font-weight:800;margin:0 0 12px;font-size:1rem}.welcome{margin:0 0 16px;color:#d6deea}.social{display:flex;gap:12px;margin:12px 0 16px}.social a{display:grid;place-items:center;width:44px;height:44px;background:#2a3850;border-radius:50%;text-decoration:none;font-size:1.15rem;color:#fff;border:1px solid #ffffff0c}.social a:hover{background:var(--gold);color:#172238}.btn{display:inline-flex;gap:8px;align-items:center;border-radius:24px;padding:10px 18px;background:var(--gold);color:#172238;text-decoration:none;font-size:.82rem;font-weight:800;border:0}.btn.outline{background:transparent;color:var(--text);border:1px solid #61718a;margin-left:8px}.section{width:min(1120px,90vw);margin:0 auto;padding:42px 0}.section-title{text-align:center;margin:0 0 28px;color:var(--blue);font-size:1.55rem;font-weight:800;display:flex;align-items:center;justify-content:center;gap:11px}.section-title .ico{color:var(--gold);font-size:1.7rem}.section-title:after{content:"";position:absolute}.offer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.offer{background:var(--panel);border:1px solid #ffffff0a;border-radius:5px;text-align:center;padding:19px 12px;box-shadow:var(--shadow);color:#b9cce8;font-weight:700;font-size:.82rem}.offer .ico{display:block;color:#dce7fa;font-size:1.2rem;margin-bottom:6px}.panel{background:var(--panel);border:1px solid #ffffff0b;border-radius:6px;box-shadow:var(--shadow)}.about{padding:23px 25px;color:#e0e7f2}.about h3{text-align:center;color:#f4f6fb;margin:0 0 12px;font-size:1.1rem}.about p{margin:8px 0}.education-list,.experience-list{display:grid;gap:12px}.education-item,.experience-item{display:grid;grid-template-columns:42px 1fr auto;gap:14px;align-items:center;padding:15px}.school-icon{width:42px;height:42px;border-radius:5px;background:#fff;color:#1b2a40;display:grid;place-items:center;font-weight:900;font-size:.75rem}.item-title{color:var(--blue);font-weight:800;margin:0 0 3px}.institution{font-size:.83rem;color:#d4dceb;margin:0}.details{font-size:.8rem;color:var(--muted);margin:3px 0 0}.date{font-size:.74rem;color:var(--gold);white-space:nowrap;text-align:right}.cert-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.cert{padding:19px;display:flex;flex-direction:column;min-height:218px;position:relative}.cert .cert-ico{font-size:1.6rem;color:var(--gold)}.cert h3{font-size:1rem;line-height:1.4;margin:8px 0;color:var(--blue)}.cert p{font-size:.82rem;color:var(--muted);margin:0 0 17px}.cert-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}.small-btn{display:inline-block;text-decoration:none;border:1px solid #60728e;color:#e9f0fb;border-radius:4px;padding:7px 10px;font-size:.76rem;font-weight:700}.small-btn.primary{background:var(--gold);border-color:var(--gold);color:#152137}.skill-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.skill-panel{padding:16px}.skill-panel h3{font-size:.9rem;color:var(--blue);margin:0 0 10px}.tags{display:flex;flex-wrap:wrap;gap:7px}.tags span{border:1px solid #1ca8ad;border-radius:20px;padding:3px 9px;font-size:.76rem;color:#63dfce}.tags span:nth-child(even){border-color:#298ed2;color:#75c6ff}.note{color:var(--muted);font-size:.78rem;margin-top:15px}.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.contact{padding:17px;text-align:center;text-decoration:none;display:flex;flex-direction:column;gap:4px;overflow-wrap:anywhere}.contact .ico{font-size:1.5rem;color:var(--gold)}.contact small{color:var(--muted)}.contact strong{font-size:.84rem;color:#dfe9f7}footer{border-top:1px solid #ffffff12;padding:22px 5vw;display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:.8rem}footer p{margin:0}.top{color:var(--gold);font-size:1.3rem;text-decoration:none}.theme{position:fixed;right:20px;bottom:18px;z-index:25;width:40px;height:40px;border:0;border-radius:50%;background:#25344b;color:var(--gold);box-shadow:var(--shadow);cursor:pointer;font-size:1.15rem}
+body.light{--bg:#eef3fa;--panel:#fff;--panel2:#f7f9fd;--text:#18243a;--muted:#5c6a80;--line:#d8e0ed;background:var(--bg);color:var(--text)}body.light .header{background:#f6f8fced}body.light .hero{background:linear-gradient(115deg,#e7edf7,#f4f7fc)}body.light .logo,body.light nav a,body.light .about,body.light .about h3,body.light .contact strong,body.light .small-btn{color:#26344c}body.light .about h3{color:#26344c}body.light .about{color:#34445d}body.light .panel,body.light .offer{border-color:#dce4ef}body.light .institution{color:#3d4d65}
+@media(max-width:900px){nav{gap:10px}nav a{font-size:.61rem}.hero{padding:48px 6vw}.section{width:90vw}.cert-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:680px){.header{height:56px;padding:0 17px}.menu-btn{display:block}nav{display:none;position:absolute;top:56px;left:0;right:0;background:var(--bg);padding:10px 22px 20px;flex-direction:column;align-items:stretch;gap:0;border-bottom:1px solid var(--line)}nav.open{display:flex}nav a{font-size:.78rem;padding:10px 0}.hero{padding:38px 6vw 46px}.hero-inner{grid-template-columns:1fr;text-align:center;gap:18px}.avatar{width:142px;height:142px}.hero h1{font-size:1.7rem}.social{justify-content:center}.hero .actions{text-align:center}.section{padding:32px 0}.section-title{font-size:1.35rem;margin-bottom:21px}.offer-grid{grid-template-columns:repeat(2,1fr)}.about{padding:18px}.education-item,.experience-item{grid-template-columns:38px 1fr;gap:11px}.school-icon{width:38px;height:38px}.date{grid-column:2;text-align:left}.cert-grid,.skill-grid,.contact-grid{grid-template-columns:1fr}.cert{min-height:unset}.contact-grid{gap:9px}footer{gap:10px;flex-wrap:wrap}}
+</style>
 </head>
 <body>
 <header class="header">
-  <a class="logo" href="#home">RA<span>.</span></a>
-  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
-  <nav id="nav">
-    <a href="#about">ABOUT</a><a href="#education">EDUCATION</a><a href="#training">TRAINING</a><a href="#skills">SKILLS</a><a href="#contact">CONTACT</a>
-  </nav>
+<a class="logo" href="#home">(Razin)<span>RA</span></a>
+<button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+<nav id="nav">
+<a href="#about">About</a><a href="#offer">Expertise</a><a href="#education">Education</a><a href="#training">Training</a><a href="#certificates">Certificates</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+</nav>
 </header>
 <main>
-<section class="hero" id="home">
- <div class="hero-inner">
-  <div class="avatar" aria-label="Profile photo placeholder"><div class="silhouette"><span></span><i></i></div><small>Add your photo</small></div>
-  <div class="hero-text">
-   <p class="kicker">HELLO, I'M</p><h1>MD. RAYSUL ALAM RAZIN<span>.</span></h1>
-   <h2>B.Sc. in Nursing Student <b>·</b> 2nd Year</h2>
-   <p class="welcome">Learning today, contributing tomorrow. <em>✦</em></p>
-   <div class="social">
-    <a href="mailto:razinalambhola@gmail.com" aria-label="Email">✉</a>
-    <a href="https://github.com/raysulalamrazin" aria-label="GitHub" target="_blank" rel="noopener">GH</a>
-   </div>
-   <div class="actions"><a class="btn" href="assets/cv.pdf" download>↓ &nbsp;Download CV</a><a class="btn outline" href="#contact">Contact Me</a></div>
-  </div>
- </div>
-</section>
-<section class="section" id="about">
- <div class="heading"><span>✦</span><h2>About Me</h2><i></i></div>
- <div class="panel about"><p>I am MD. Raysul Alam Razin, a second-year B.Sc. in Nursing student at Rajdhani Nursing College, Banglabazar, Barishal. I am interested in developing my knowledge, strengthening my skills, and building a meaningful future in the nursing profession.</p><p>This portfolio presents my educational background and training. I look forward to continuous learning and opportunities to grow personally and professionally.</p></div>
-</section>
-<section class="section" id="education">
- <div class="heading"><span>♧</span><h2>Education</h2><i></i></div>
- <div class="timeline">
-  <article class="panel item"><div class="mark">BSN</div><div class="item-body"><h3>B.Sc. in Nursing</h3><p class="institution">Rajdhani Nursing College, Banglabazar, Barishal</p><p>Currently studying · 2nd Year</p></div><time>Present</time></article>
-  <article class="panel item"><div class="mark">HSC</div><div class="item-body"><h3>Higher Secondary Certificate</h3><p class="institution">Abdur Rab Serniabat Govt. College</p><p>GPA: 5.00</p></div><time>2024</time></article>
-  <article class="panel item"><div class="mark">SSC</div><div class="item-body"><h3>Secondary School Certificate</h3><p class="institution">Barishal Zilla School</p><p>GPA: 4.94</p></div><time>2022</time></article>
- </div>
-</section>
-<section class="section" id="training">
- <div class="heading"><span>▤</span><h2>Training & Courses</h2><i></i></div>
- <div class="cards two">
-  <article class="panel course"><div class="course-icon">⌘</div><div><h3>Computer Office Application</h3><p>6-month course</p></div></article>
-  <article class="panel course"><div class="course-icon">◇</div><div><h3>Youth Development / Trade Course</h3><p>6-month course</p></div></article>
- </div>
-</section>
-<section class="section" id="skills">
- <div class="heading"><span>✧</span><h2>Skills & Interests</h2><i></i></div>
- <div class="panel skills"><div><h3>Professional strengths</h3><div class="tags"><span>Continuous learning</span><span>Communication</span><span>Teamwork</span><span>Responsibility</span></div></div><div><h3>Areas of interest</h3><div class="tags"><span>Nursing</span><span>Patient-centred care</span><span>Personal development</span></div></div><p class="hint">Edit these sample strengths to reflect your actual skills and experience.</p></div>
-</section>
-<section class="section contact-section" id="contact">
- <div class="heading"><span>✉</span><h2>Contact</h2><i></i></div>
- <p class="contact-lead">Feel free to contact me through email or phone.</p>
- <div class="cards three">
-  <a class="panel contact" href="mailto:razinalambhola@gmail.com"><span>✉</span><small>Email</small><strong>razinalambhola@gmail.com</strong></a>
-  <a class="panel contact" href="tel:+880173349579"><span>☎</span><small>Phone</small><strong>+880 1733-495-579</strong></a>
-  <a class="panel contact" href="https://github.com/raysulalamrazin" target="_blank" rel="noopener"><span>GH</span><small>GitHub</small><strong>raysulalamrazin</strong></a>
- </div>
-</section>
+<section class="hero" id="home"><div class="hero-inner">
+<img class="avatar" src="assets/profile.png" alt="Portrait of MD. Raysul Alam Razin">
+<div><h1>MD. RAYSUL ALAM RAZIN</h1><p class="degree">B.Sc. in Nursing Student · 2nd Year</p><p class="welcome">Welcome to my portfolio 👋</p>
+<div class="social"><a href="mailto:razinalambhola@gmail.com" aria-label="Email">✉</a><a href="https://github.com/raysulalamrazin" target="_blank" rel="noopener" aria-label="GitHub">GH</a><a href="#certificates" aria-label="Certificates">♜</a></div>
+<a class="btn" href="#certificates">▣ &nbsp; View Certificates ↓</a><a class="btn outline" href="#contact">Contact Me</a></div>
+</div></section>
+<section class="section" id="about"><div class="panel about"><h3>Hi, I'm MD. Raysul Alam Razin,</h3>
+<p>I am a second-year B.Sc. in Nursing student at Rajdhani Nursing College, Banglabazar, Barishal. I am interested in nursing practice, patient-centred care, health education, and developing the knowledge and practical skills needed to contribute to healthcare.</p>
+<p>This portfolio highlights my education, training courses, certificates, and ongoing professional development. I believe in continuous learning, responsibility, teamwork, and treating every person with respect.</p></div></section>
+<section class="section" id="offer"><h2 class="section-title"><span class="ico">💡</span> What I Can Offer</h2><div class="offer-grid">
+<div class="offer"><span class="ico">✚</span>Patient-centred Care</div><div class="offer"><span class="ico">♡</span>Health Awareness</div><div class="offer"><span class="ico">♧</span>Teamwork & Communication</div><div class="offer"><span class="ico">✧</span>Continuous Learning</div>
+</div></section>
+<section class="section" id="education"><h2 class="section-title"><span class="ico">🎓</span> Education</h2><div class="education-list">
+<article class="panel education-item"><div class="school-icon">BSN</div><div><p class="item-title">B.Sc. in Nursing</p><p class="institution">Rajdhani Nursing College, Banglabazar, Barishal</p><p class="details">Currently studying · 2nd Year</p></div><div class="date">Present</div></article>
+<article class="panel education-item"><div class="school-icon">HSC</div><div><p class="item-title">Higher Secondary Certificate</p><p class="institution">Abdur Rab Serniabat Govt. College</p><p class="details">GPA: 5.00</p></div><div class="date">2024</div></article>
+<article class="panel education-item"><div class="school-icon">SSC</div><div><p class="item-title">Secondary School Certificate</p><p class="institution">Barishal Zilla School</p><p class="details">GPA: 4.94</p></div><div class="date">2022</div></article>
+</div></section>
+<section class="section" id="training"><h2 class="section-title"><span class="ico">▣</span> Training & Courses</h2><div class="education-list">
+<article class="panel education-item"><div class="school-icon">IT</div><div><p class="item-title">Computer Office Application</p><p class="institution">6-month course</p></div><div class="date">Training</div></article>
+<article class="panel education-item"><div class="school-icon">YD</div><div><p class="item-title">Youth Development / Trade Course</p><p class="institution">6-month course</p></div><div class="date">Training</div></article>
+</div></section>
+<section class="section" id="certificates"><h2 class="section-title"><span class="ico">🏅</span> Certificates & Achievements</h2><div class="cert-grid">
+<article class="panel cert"><div class="cert-ico">▤</div><h3>General Caregiving, Level 2</h3><p>National Skills Certificate · NSDA · 440 hours</p><div class="cert-actions"><a class="small-btn primary" href="assets/certificates/nsda-general-caregiving-level-2.pdf" target="_blank" rel="noopener">View Certificate ↗</a><a class="small-btn" href="assets/certificates/nsda-general-caregiving-level-2.pdf" download>Download PDF ↓</a></div></article>
+<article class="panel cert"><div class="cert-ico">▤</div><h3>JobReady – Employability Skills</h3><p>e-Learning & Earning Ltd · Wadhwani Foundation · 79 hours · June 26, 2025</p><div class="cert-actions"><a class="small-btn primary" href="assets/certificates/jobready-employability-skills.pdf" target="_blank" rel="noopener">View Certificate ↗</a><a class="small-btn" href="assets/certificates/jobready-employability-skills.pdf" download>Download PDF ↓</a></div></article>
+<article class="panel cert"><div class="cert-ico">▤</div><h3>Climate Change and Health Course for Health Professionals</h3><p>MD. Razin · October 2, 2026</p><div class="cert-actions"><a class="small-btn primary" href="assets/certificates/climate-change-and-health-course.pdf" target="_blank" rel="noopener">View Certificate ↗</a><a class="small-btn" href="assets/certificates/climate-change-and-health-course.pdf" download>Download PDF ↓</a></div></article>
+<article class="panel cert"><div class="cert-ico">▤</div><h3>Additional Certificate</h3><p>Open the supplied PDF to view the certificate details.</p><div class="cert-actions"><a class="small-btn primary" href="assets/certificates/certificate-2.pdf" target="_blank" rel="noopener">View Certificate ↗</a><a class="small-btn" href="assets/certificates/certificate-2.pdf" download>Download PDF ↓</a></div></article>
+<article class="panel cert"><div class="cert-ico">▤</div><h3>Additional Certificate</h3><p>Open the supplied PDF to view the certificate details.</p><div class="cert-actions"><a class="small-btn primary" href="assets/certificates/certificate-3.pdf" target="_blank" rel="noopener">View Certificate ↗</a><a class="small-btn" href="assets/certificates/certificate-3.pdf" download>Download PDF ↓</a></div></article>
+</div></section>
+<section class="section" id="skills"><h2 class="section-title"><span class="ico">⌘</span> Skills & Interests</h2><div class="skill-grid">
+<div class="panel skill-panel"><h3>Professional Strengths</h3><div class="tags"><span>Communication</span><span>Teamwork</span><span>Responsibility</span><span>Continuous learning</span></div></div>
+<div class="panel skill-panel"><h3>Areas of Interest</h3><div class="tags"><span>Nursing</span><span>Patient-centred care</span><span>Health education</span><span>Personal development</span></div></div>
+</div><p class="note">Please update the skills and training details if you want to include more specific qualifications or experience.</p></section>
+<section class="section" id="contact"><h2 class="section-title"><span class="ico">✉</span> Contact</h2><div class="contact-grid">
+<a class="panel contact" href="mailto:razinalambhola@gmail.com"><span class="ico">✉</span><small>Email</small><strong>razinalambhola@gmail.com</strong></a>
+<a class="panel contact" href="tel:01733449579"><span class="ico">☎</span><small>Phone</small><strong>01733449579</strong></a>
+<a class="panel contact" href="https://github.com/raysulalamrazin" target="_blank" rel="noopener"><span class="ico">GH</span><small>GitHub</small><strong>raysulalamrazin</strong></a>
+</div></section>
 </main>
-<footer><a class="logo" href="#home">RA<span>.</span></a><p>© <span id="year"></span> MD. RAYSUL ALAM RAZIN</p><a class="top" href="#home" aria-label="Back to top">↑</a></footer>
+<footer><a class="logo" href="#home">Razin<span>.</span></a><p>© <span id="year"></span> MD. RAYSUL ALAM RAZIN</p><a class="top" href="#home">↑</a></footer>
 <button class="theme" id="theme" aria-label="Toggle light and dark theme">☼</button>
-<script src="script.js"></script>
+<script>
+document.getElementById("year").textContent=new Date().getFullYear();
+const menuBtn=document.getElementById("menuBtn"),nav=document.getElementById("nav");
+menuBtn.addEventListener("click",()=>{const open=nav.classList.toggle("open");menuBtn.setAttribute("aria-expanded",String(open));});
+nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{nav.classList.remove("open");menuBtn.setAttribute("aria-expanded","false");}));
+document.getElementById("theme").addEventListener("click",()=>document.body.classList.toggle("light"));
+const sections=[...document.querySelectorAll("main section[id]")],links=[...nav.querySelectorAll("a")];
+window.addEventListener("scroll",()=>{let current="";sections.forEach(s=>{if(window.scrollY>=s.offsetTop-110)current=s.id});links.forEach(a=>a.classList.toggle("active",a.getAttribute("href")==="#"+current));},{passive:true});
+</script>
 </body></html>
